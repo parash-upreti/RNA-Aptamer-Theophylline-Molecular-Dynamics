@@ -294,14 +294,14 @@ The calculation provides an estimate of the binding affinity by combining molecu
 The processed molecular dynamics trajectory of the **RNA aptamer–theophylline complex** was visualized using **UCSF Chimera**.
 
 <p align="center">
-<img src="Movie/md_simulation.gif" width="700">
+<img src="results/Movie/md_simulation.gif" width="700">
 </p>
 
 The animated preview above illustrates the complete **10 ns molecular dynamics trajectory** at an accelerated playback speed. The complete trajectory is also provided as an MP4 video.
 
 **Full Trajectory (MP4)**
 
-[▶ Watch the complete molecular dynamics trajectory](Movie/md_simulation.mp4)
+[▶ Watch the complete molecular dynamics trajectory](results/Movie/md_simulation.mp4)
 
 ---
 
