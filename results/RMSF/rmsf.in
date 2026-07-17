@@ -1,0 +1,9 @@
+parm complex.prmtop
+
+trajin combined_10ns_image.nc
+
+atomicfluct out rmsf_10.dat @P,C4',C3',C2',C1',O4' byres
+
+run
+quit
+

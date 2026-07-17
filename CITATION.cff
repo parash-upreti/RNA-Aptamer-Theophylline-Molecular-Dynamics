@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this repository in your research, teaching, or learning, please cite it using the metadata below."
+
+title: "Molecular Dynamics Simulation and Binding Free Energy Analysis of the RNA Aptamer–Theophylline Complex"
+
+type: software
+
+authors:
+  - family-names: Upreti
+    given-names: Parash
+
+repository-code: "https://github.com/parash-upreti/RNA-Aptamer-Theophylline-Molecular-Dynamics"
+
+abstract: >
+  A complete AmberTools 26 workflow for molecular dynamics simulation,
+  trajectory analysis, and MM/PBSA binding free energy estimation of the
+  RNA aptamer–theophylline complex (PDB ID: 8D28). The repository includes
+  system preparation, topology generation, simulation input files,
+  trajectory processing scripts, structural analyses, and representative
+  results.
+
+keywords:
+  - Molecular Dynamics
+  - AmberTools
+  - CPPTRAJ
+  - MM/PBSA
+  - RNA Aptamer
+  - Theophylline
+  - Computational Chemistry
+  - Molecular Modeling
+  - CADD
+
+license: MIT

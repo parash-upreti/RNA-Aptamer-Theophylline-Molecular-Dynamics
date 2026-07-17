@@ -1,0 +1,8 @@
+parm complex.prmtop
+
+trajin combined_10ns_image.nc
+
+radgyr out rog_10.dat :1-33
+
+run
+quit

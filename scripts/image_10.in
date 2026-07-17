@@ -1,0 +1,12 @@
+parm complex.prmtop
+
+trajin combined_10ns.nc
+
+autoimage
+
+rms first :1-33@P,C4',C3',C2',C1',O4'
+
+trajout combined_10ns_image.nc netcdf
+
+run
+quit

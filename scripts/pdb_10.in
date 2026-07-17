@@ -1,0 +1,8 @@
+parm complex.prmtop
+
+trajin combined_10ns_image.nc 1 1
+
+trajout combined_10ns_image.pdb pdb
+
+run
+quit

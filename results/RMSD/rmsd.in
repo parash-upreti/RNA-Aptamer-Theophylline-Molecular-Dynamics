@@ -1,0 +1,8 @@
+parm complex.prmtop
+
+trajin combined_10ns_image.nc
+
+rms first :1-33@P,C4',C3',C2',C1',O4' out rmsd_10.dat
+
+run
+quit

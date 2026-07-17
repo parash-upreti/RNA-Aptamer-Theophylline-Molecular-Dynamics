@@ -1,0 +1,11 @@
+parm complex.prmtop
+
+trajin prod.nc
+trajin prod2.nc
+trajin prod3.nc
+trajin prod4.nc
+
+trajout combined_10ns.nc netcdf
+
+run
+quit

@@ -1,0 +1,19 @@
+source leaprc.RNA.OL3
+source leaprc.gaff2
+source leaprc.water.tip3p
+
+loadamberparams TEP.frcmod
+TEP = loadmol2 TEP.mol2
+
+complex = loadpdb 8D28_chainB.pdb
+
+check complex
+
+solvateOct complex TIP3PBOX 12.0
+
+addIonsRand complex Na+ 0
+
+saveamberparm complex complex.prmtop complex.inpcrd
+savepdb complex complex_solvated.pdb
+
+quit

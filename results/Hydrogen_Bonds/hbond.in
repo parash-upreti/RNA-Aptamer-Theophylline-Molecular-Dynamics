@@ -1,0 +1,9 @@
+parm complex.prmtop
+
+trajin combined_10ns_image.nc
+
+hbond HB out hbonds_10.dat avgout hbavg_10.dat
+
+run
+quit
+

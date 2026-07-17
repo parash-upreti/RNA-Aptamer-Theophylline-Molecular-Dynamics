@@ -1,0 +1,17 @@
+parm ../../complex.prmtop
+
+trajin ../trajectory/combined_10ns_image.nc
+
+cluster C1 \
+    hieragglo averagelinkage epsilon 2.0 \
+    rms :1-33@P,C4',C3',C2',C1',O4' \
+    out cluster_summary.dat \
+    summary cluster_info.dat \
+    info cluster_details.dat \
+    cpopvtime cluster_population.agr \
+    repout representative repfmt pdb \
+    singlerepout representative.pdb \
+    avgout cluster_avg avgfmt pdb
+
+run
+quit

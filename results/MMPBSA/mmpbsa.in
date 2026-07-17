@@ -1,0 +1,10 @@
+&general
+  startframe=1,
+  endframe=1000,
+  interval=1,
+  verbose=2,
+/
+
+&pb
+  istrng=0.150,
+/

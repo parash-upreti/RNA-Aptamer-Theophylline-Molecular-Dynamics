@@ -1,0 +1,8 @@
+parm ../../complex.prmtop
+
+trajin combined_10ns_image.nc
+
+distance Ligand_RNA_COM :1-33 :34 out ligand_rna_distance.dat
+
+run
+quit
